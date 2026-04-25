@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Генератор Идей</string>
+    <string name="nav_generator">Генератор</string>
+    <string name="nav_catalog">Каталог</string>
+    <string name="nav_favorites">Избранное</string>
+    <string name="btn_generate">Сгенерировать</string>
+    <string name="empty_catalog">Пока нет идей. Сгенерируйте первую!</string>
+    <string name="empty_favorites">Нет избранных идей.</string>
+    <string name="label_features">Основные фичи</string>
+    <string name="label_technologies">Технологии</string>
+    <string name="label_time">Оценка времени</string>
+
+    <string-array name="categories">
+        <item>Образование</item>
+        <item>Финансы</item>
+        <item>Здоровье и фитнес</item>
+        <item>Утилиты</item>
+        <item>Игры и развлечения</item>
+    </string-array>
+
+    <string-array name="difficulties">
+        <item>1 — Легко</item>
+        <item>2 — Средне</item>
+        <item>3 — Сложно</item>
+    </string-array>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1052206150426",
+    "project_id": "ideagenerator-dde5f",
+    "storage_bucket": "ideagenerator-dde5f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052206150426:android:73ad97232c0f7773e932a3",
+        "android_client_info": {
+          "package_name": "com.example.ideagenerator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE4aLYnXMJvLUAHt1aSl9GeN7vs0SUofY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

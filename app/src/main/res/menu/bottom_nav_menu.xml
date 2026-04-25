@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/generatorFragment" android:icon="@android:drawable/ic_menu_manage" android:title="@string/nav_generator" />
+    <item android:id="@+id/catalogFragment" android:icon="@android:drawable/ic_menu_sort_by_size" android:title="@string/nav_catalog" />
+    <item android:id="@+id/favoritesFragment" android:icon="@android:drawable/btn_star_big_on" android:title="@string/nav_favorites" />
+</menu>

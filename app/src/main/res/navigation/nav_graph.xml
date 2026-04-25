@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph" app:startDestination="@id/generatorFragment">
+    <fragment android:id="@+id/generatorFragment" android:name="com.example.ideagenerator.ui.GeneratorFragment" android:label="Генератор" tools:layout="@layout/fragment_generator">
+        <action android:id="@+id/action_generator_to_detail" app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment android:id="@+id/catalogFragment" android:name="com.example.ideagenerator.ui.CatalogFragment" android:label="Каталог" tools:layout="@layout/fragment_catalog">
+        <action android:id="@+id/action_catalog_to_detail" app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment android:id="@+id/favoritesFragment" android:name="com.example.ideagenerator.ui.FavoritesFragment" android:label="Избранное" tools:layout="@layout/fragment_favorites">
+        <action android:id="@+id/action_favorites_to_detail" app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment android:id="@+id/detailFragment" android:name="com.example.ideagenerator.ui.DetailFragment" android:label="Детали" tools:layout="@layout/fragment_detail">
+        <argument android:name="ideaId" app:argType="string" />
+    </fragment>
+</navigation>
